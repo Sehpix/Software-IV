@@ -3,21 +3,24 @@
     src: url(Overwave.ttf);
 }
 @font-face {
-    font-family: "WavePath";
-    src: url(WavePath.ttf);
-}
-@font-face {
     font-family: "CuteDino";
     src: url(CuteDino.ttf);
 }
-
+@font-face {
+  font-family: "Floris";
+  src: url(Floris.otf);
+}
+@font-face {
+  font-family: "CaviarDreams";
+  src: url(CaviarDreams.ttf);
+}
 header {
    /* background-image: url(fondo1.jpg);*/
     background-position: center;
-    padding: 50px;
-    background-size:contain;
+    padding: 30px;
+    background-size:300px;
     background-repeat: repeat;
-    background-color:#10E859 ;
+    background-color:#0f98ce ;
     
 }
 .container3 {
@@ -28,31 +31,34 @@ header {
 .t {
     display:inline;
     text-align: center;
-    font-size: 250%;
-    padding: 1.5em;
-    color:#0f5e9c;
-    font-family: "Overwave";
+    font-size: 450%;
+    padding: 1.50em;
+    color:#40e6f1;
+    font-family: "Floris";
+    font-style: oblique;
+    font-weight: 300px;
 }
 .Logo {
     text-align: left;
 }
 body {
-    background-color:#10E8A3;
+    background-color:#40e6f1;
     /*background-image: url(titpit.jpg);*/
 }
 .t2 {
     text-align: center;
     color:black;
-    font-size: 50px;
+    font-size: 150px;
     margin-top: 50px;
-    font-family: "WavePath";
+    font-family: "Floris";
+    font-weight: 100;
 }
 p {
     color:black;
     text-align: center;
-    font-size:x-large;
-    font-family: "CuteDino";
-    font-weight: 5;
+    font-size:xx-large;
+    font-family: "CaviarDreams";
+    font-weight: 15;
 }
 .carrusel {
   width: 80%;
@@ -87,4 +93,17 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.container4 {
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+
+}
+.INFO {
+  display: inline;
+}
+.ContacInfo {
+  font-family: "CaviarDreams";
+  font-size: medium;
+  padding: 1.5em;
 }
