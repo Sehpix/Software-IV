@@ -1,8 +1,4 @@
 @font-face {
-    font-family: "Overwave";
-    src: url(Overwave.ttf);
-}
-@font-face {
     font-family: "CuteDino";
     src: url(CuteDino.ttf);
 }
@@ -17,7 +13,7 @@
 header {
    /* background-image: url(fondo1.jpg);*/
     background-position: center;
-    padding: 30px;
+    padding: 20px;
     background-size:300px;
     background-repeat: repeat;
     background-color:#0f98ce ;
@@ -38,11 +34,22 @@ header {
     font-style: oblique;
     font-weight: 300px;
 }
+.t1 {
+  display:inline;
+  text-align: right;
+  font-size: 250%;
+  padding: 1.50em;
+  color:#40e6f1;
+  font-family: "CaviarDreams";
+  font-style: oblique;
+  font-weight: 300px;
+}
 .Logo {
     text-align: left;
+    padding: 2.50em;
 }
 body {
-    background-color:#40e6f1;
+  background:rgb(161, 219, 219);
     /*background-image: url(titpit.jpg);*/
 }
 .t2 {
@@ -59,6 +66,7 @@ p {
     font-size:xx-large;
     font-family: "CaviarDreams";
     font-weight: 15;
+    margin-top: -1em;
 }
 .carrusel {
   width: 80%;
@@ -106,4 +114,23 @@ p {
   font-family: "CaviarDreams";
   font-size: medium;
   padding: 1.5em;
+}
+.container4 {
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  background:rgb(161, 219, 219);
+
+}
+.Proyimg {
+  margin-top: 0.5em;
+}
+.p2 {
+  color:black;
+  text-align: center;
+  font-size:xx-large;
+  font-family: "CaviarDreams";
+  font-weight: 15;
+}
+footer {
+  background-color: #1f3da8;
 }
