@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: "CuteDino";
     src: url(CuteDino.ttf);
@@ -21,13 +22,13 @@ header {
 }
 .container3 {
     display: grid;
-    grid-template-columns: repeat(4 , 1fr);
+    grid-template-columns: repeat(5 , 1fr);
 
 }
 .t {
     display:inline;
     text-align: center;
-    font-size: 450%;
+    font-size: 400%;
     padding: 1.50em;
     color:#40e6f1;
     font-family: "Floris";
@@ -50,7 +51,7 @@ header {
 }
 body {
   background:rgb(161, 219, 219);
-    /*background-image: url(titpit.jpg);*/
+  height: 100%;
 }
 .t2 {
     text-align: center;
@@ -131,6 +132,19 @@ p {
   font-family: "CaviarDreams";
   font-weight: 15;
 }
+.textob {
+  color:black;
+  text-align: left;
+  font-size:xx-large;
+  font-family: "CaviarDreams";
+  font-weight: 15;
+  margin-left: 6em;
+}
 footer {
-  background-color: #1f3da8;
+  background-color: #0f98ce;
+  padding: 50px;
+  font-family: "Desyrel";
+  text-align: center;
+  font-size: 40px;
+  color: rgb(6 48 23);
 }
